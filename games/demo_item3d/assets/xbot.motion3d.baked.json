@@ -1,0 +1,26 @@
+{
+ "held": {
+  "idle": {
+   "spot": ["LeftFoot", "RightFoot"],
+   "on": "both"
+  },
+  "fall": {
+   "spot": ["Hips"],
+   "on": "both"
+  }
+ },
+ "offsets": {
+  "xbot": {
+   "idle": {
+    "beginOffset": [0, 0.066, 0],
+    "endOffset": [0, 0.066, 0],
+    "beginTurn": 0
+   },
+   "fall": {
+    "beginOffset": [0, 0, 0],
+    "endOffset": [0, 0, 0],
+    "beginTurn": 0
+   }
+  }
+ }
+}

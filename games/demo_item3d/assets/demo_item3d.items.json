@@ -1,0 +1,337 @@
+{
+ "items": {
+  "wrench": {
+   "kind": "modern/colonial/garage/tools/adjustable_wrench",
+   "keys": {
+    "Length": 0.3
+   }
+  },
+  "teststand": {
+   "kind": "item3d_test_item"
+  },
+  "torch": {
+   "kind": "fantasy/mmo/weapons/torch_club"
+  },
+  "skullcap": {
+   "kind": "armor_basic/head/skullcap",
+   "keys": {
+    "Body": "soldier"
+   }
+  },
+  "knight_armet": {
+   "kind": "armor_basic/head/armet"
+  },
+  "knight_gorget": {
+   "kind": "armor_basic/neck/gorget"
+  },
+  "knight_breastplate": {
+   "kind": "armor_basic/torso/breastplate"
+  },
+  "knight_backplate": {
+   "kind": "armor_basic/torso/backplate"
+  },
+  "knight_fauld": {
+   "kind": "armor_basic/torso/fauld"
+  },
+  "knight_pauldron_left": {
+   "kind": "armor_basic/arms/pauldron",
+   "keys": {
+    "Hand": "left"
+   }
+  },
+  "knight_pauldron_right": {
+   "kind": "armor_basic/arms/pauldron",
+   "keys": {
+    "Hand": "right"
+   }
+  },
+  "knight_vambrace_left": {
+   "kind": "armor_basic/arms/vambrace",
+   "keys": {
+    "Hand": "left"
+   }
+  },
+  "knight_vambrace_right": {
+   "kind": "armor_basic/arms/vambrace",
+   "keys": {
+    "Hand": "right"
+   }
+  },
+  "knight_gauntlet_left": {
+   "kind": "armor_basic/arms/gauntlet",
+   "keys": {
+    "Hand": "left"
+   }
+  },
+  "knight_gauntlet_right": {
+   "kind": "armor_basic/arms/gauntlet",
+   "keys": {
+    "Hand": "right"
+   }
+  },
+  "knight_cuisse_left": {
+   "kind": "armor_basic/legs/cuisse",
+   "keys": {
+    "Hand": "left"
+   }
+  },
+  "knight_cuisse_right": {
+   "kind": "armor_basic/legs/cuisse",
+   "keys": {
+    "Hand": "right"
+   }
+  },
+  "knight_greave_left": {
+   "kind": "armor_basic/legs/greave",
+   "keys": {
+    "Hand": "left"
+   }
+  },
+  "knight_greave_right": {
+   "kind": "armor_basic/legs/greave",
+   "keys": {
+    "Hand": "right"
+   }
+  },
+  "knight_sabaton_left": {
+   "kind": "armor_basic/legs/sabaton",
+   "keys": {
+    "Hand": "left"
+   }
+  },
+  "knight_sabaton_right": {
+   "kind": "armor_basic/legs/sabaton",
+   "keys": {
+    "Hand": "right"
+   }
+  },
+  "deathknight_helm": {
+   "kind": "armor/deathknight/head/helm",
+   "keys": {
+    "Body": "soldier"
+   }
+  },
+  "deathknight_mantle": {
+   "kind": "armor/deathknight/neck/mantle",
+   "keys": {
+    "Body": "soldier"
+   }
+  },
+  "deathknight_breastplate": {
+   "kind": "armor/deathknight/torso/breastplate",
+   "keys": {
+    "Body": "soldier"
+   }
+  },
+  "deathknight_backplate": {
+   "kind": "armor/deathknight/torso/backplate",
+   "keys": {
+    "Body": "soldier"
+   }
+  },
+  "deathknight_fauld": {
+   "kind": "armor/deathknight/torso/fauld",
+   "keys": {
+    "Body": "soldier"
+   }
+  },
+  "deathknight_pauldron_left": {
+   "kind": "armor/deathknight/arms/pauldron",
+   "keys": {
+    "Body": "soldier",
+    "Hand": "left"
+   }
+  },
+  "deathknight_pauldron_right": {
+   "kind": "armor/deathknight/arms/pauldron",
+   "keys": {
+    "Body": "soldier",
+    "Hand": "right"
+   }
+  },
+  "deathknight_vambrace_left": {
+   "kind": "armor/deathknight/arms/vambrace",
+   "keys": {
+    "Body": "soldier",
+    "Hand": "left"
+   }
+  },
+  "deathknight_vambrace_right": {
+   "kind": "armor/deathknight/arms/vambrace",
+   "keys": {
+    "Body": "soldier",
+    "Hand": "right"
+   }
+  },
+  "deathknight_gauntlet_left": {
+   "kind": "armor/deathknight/arms/gauntlet",
+   "keys": {
+    "Body": "soldier",
+    "Hand": "left"
+   }
+  },
+  "deathknight_gauntlet_right": {
+   "kind": "armor/deathknight/arms/gauntlet",
+   "keys": {
+    "Body": "soldier",
+    "Hand": "right"
+   }
+  },
+  "deathknight_cuisse_left": {
+   "kind": "armor/deathknight/legs/cuisse",
+   "keys": {
+    "Body": "soldier",
+    "Hand": "left"
+   }
+  },
+  "deathknight_cuisse_right": {
+   "kind": "armor/deathknight/legs/cuisse",
+   "keys": {
+    "Body": "soldier",
+    "Hand": "right"
+   }
+  },
+  "deathknight_greave_left": {
+   "kind": "armor/deathknight/legs/greave",
+   "keys": {
+    "Body": "soldier",
+    "Hand": "left"
+   }
+  },
+  "deathknight_greave_right": {
+   "kind": "armor/deathknight/legs/greave",
+   "keys": {
+    "Body": "soldier",
+    "Hand": "right"
+   }
+  },
+  "deathknight_sabaton_left": {
+   "kind": "armor/deathknight/legs/sabaton",
+   "keys": {
+    "Body": "soldier",
+    "Hand": "left"
+   }
+  },
+  "deathknight_sabaton_right": {
+   "kind": "armor/deathknight/legs/sabaton",
+   "keys": {
+    "Body": "soldier",
+    "Hand": "right"
+   }
+  },
+  "barbarian_helm": {
+   "kind": "armor/barbarian/head/helm",
+   "keys": {
+    "Body": "soldier"
+   }
+  },
+  "barbarian_mantle": {
+   "kind": "armor/barbarian/neck/mantle",
+   "keys": {
+    "Body": "soldier"
+   }
+  },
+  "barbarian_breastplate": {
+   "kind": "armor/barbarian/torso/breastplate",
+   "keys": {
+    "Body": "soldier"
+   }
+  },
+  "barbarian_backplate": {
+   "kind": "armor/barbarian/torso/backplate",
+   "keys": {
+    "Body": "soldier"
+   }
+  },
+  "barbarian_fauld": {
+   "kind": "armor/barbarian/torso/fauld",
+   "keys": {
+    "Body": "soldier"
+   }
+  },
+  "barbarian_pauldron_left": {
+   "kind": "armor/barbarian/arms/pauldron",
+   "keys": {
+    "Body": "soldier",
+    "Hand": "left"
+   }
+  },
+  "barbarian_pauldron_right": {
+   "kind": "armor/barbarian/arms/pauldron",
+   "keys": {
+    "Body": "soldier",
+    "Hand": "right"
+   }
+  },
+  "barbarian_vambrace_left": {
+   "kind": "armor/barbarian/arms/vambrace",
+   "keys": {
+    "Body": "soldier",
+    "Hand": "left"
+   }
+  },
+  "barbarian_vambrace_right": {
+   "kind": "armor/barbarian/arms/vambrace",
+   "keys": {
+    "Body": "soldier",
+    "Hand": "right"
+   }
+  },
+  "barbarian_gauntlet_left": {
+   "kind": "armor/barbarian/arms/gauntlet",
+   "keys": {
+    "Body": "soldier",
+    "Hand": "left"
+   }
+  },
+  "barbarian_gauntlet_right": {
+   "kind": "armor/barbarian/arms/gauntlet",
+   "keys": {
+    "Body": "soldier",
+    "Hand": "right"
+   }
+  },
+  "barbarian_cuisse_left": {
+   "kind": "armor/barbarian/legs/cuisse",
+   "keys": {
+    "Body": "soldier",
+    "Hand": "left"
+   }
+  },
+  "barbarian_cuisse_right": {
+   "kind": "armor/barbarian/legs/cuisse",
+   "keys": {
+    "Body": "soldier",
+    "Hand": "right"
+   }
+  },
+  "barbarian_greave_left": {
+   "kind": "armor/barbarian/legs/greave",
+   "keys": {
+    "Body": "soldier",
+    "Hand": "left"
+   }
+  },
+  "barbarian_greave_right": {
+   "kind": "armor/barbarian/legs/greave",
+   "keys": {
+    "Body": "soldier",
+    "Hand": "right"
+   }
+  },
+  "barbarian_sabaton_left": {
+   "kind": "armor/barbarian/legs/sabaton",
+   "keys": {
+    "Body": "soldier",
+    "Hand": "left"
+   }
+  },
+  "barbarian_sabaton_right": {
+   "kind": "armor/barbarian/legs/sabaton",
+   "keys": {
+    "Body": "soldier",
+    "Hand": "right"
+   }
+  }
+ }
+}

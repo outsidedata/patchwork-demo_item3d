@@ -1,0 +1,20 @@
+{
+ "bodies": {
+  "guard": "characters/soldier/soldier.fbx"
+ },
+ "roles": {},
+ "stances": {
+  "stand": {}
+ },
+ "clips": {},
+ "table": {},
+ "ends": {
+  "guard": {}
+ },
+ "grips": {
+  "guard": {}
+ },
+ "touches": {
+  "guard": {}
+ }
+}

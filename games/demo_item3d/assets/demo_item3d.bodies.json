@@ -1,0 +1,79 @@
+{
+  "bodies": {
+    "worker": {
+      "holds": [
+        { "item": "wrench", "bone": "RightHand", "at": [-0.068,0.0666,0.0192], "turn": [6.7,-66,-82.1] },
+        { "model": "sword", "bone": "LeftHand", "at": [0,0.0703,0], "turn": [87.3,26.1,98.9] }
+      ]
+    },
+    "xbot": {
+      "holds": [
+        { "item": "wrench", "bone": "RightHand", "at": [-0.068,0.0666,0.0192], "turn": [6.7,-66,-82.1] },
+        { "item": "torch", "bone": "LeftHand", "at": [0,0.0703,0], "turn": [87.3,26.1,98.9] }
+      ]
+    },
+    "soldier": {
+      "holds": [
+        { "item": "torch", "place": "leftHand", "at": [0,0.07,0], "turn": [95.6,4.7,110] },
+        { "item": "wrench", "place": "leftHand", "at": [0.0522,0.0451,0.0407], "turn": [38.7,54.2,-127.3] },
+        { "item": "skullcap", "place": "head", "at": [0.0004,-1.562,0.0352], "turn": [0,180,0] },
+        { "model": "sword", "place": "rightHand", "at": [0,0.07,0], "turn": [95.6,-4.7,-110] },
+        { "item": "knight_armet", "place": "head", "at": [0.0004,-1.562,0.0352], "turn": [0,-180,0] },
+        { "item": "knight_gorget", "place": "neck", "at": [0.0004,-1.505,0.0588], "turn": [0,-180,0] },
+        { "item": "knight_breastplate", "place": "chest", "at": [0.0004,-1.3364,-0.1584], "turn": [8.3,-180,0] },
+        { "item": "knight_backplate", "place": "back", "at": [0.0004,-1.3364,-0.1584], "turn": [8.3,-180,0] },
+        { "item": "knight_fauld", "place": "hips", "at": [0.0004,-0.9726,-0.0186], "turn": [0,-180,0] },
+        { "item": "knight_pauldron_left", "place": "leftArm", "at": [0.1473,-0.0955,1.4456], "turn": [29.3,99,-124.3] },
+        { "item": "knight_pauldron_right", "place": "rightArm", "at": [-0.1471,-0.0964,1.4457], "turn": [30.3,-99.1,125.3] },
+        { "item": "knight_vambrace_left", "place": "leftForearm", "at": [0.0867,-0.43,1.4283], "turn": [-31.3,99.4,-60.6] },
+        { "item": "knight_vambrace_right", "place": "rightForearm", "at": [-0.0881,-0.4315,1.4281], "turn": [-28.9,-99.2,62.9] },
+        { "item": "knight_gauntlet_left", "place": "leftHand", "at": [0.2012,-0.6379,1.437], "turn": [6.2,99.8,-99.7] },
+        { "item": "knight_gauntlet_right", "place": "rightHand", "at": [-0.1801,-0.5531,1.4749], "turn": [7.1,-98.9,104] },
+        { "item": "knight_cuisse_left", "place": "leftThigh", "at": [0.1202,0.9082,0.0472], "turn": [-176.6,0.1,2.3] },
+        { "item": "knight_cuisse_right", "place": "rightThigh", "at": [-0.1209,0.9087,0.0353], "turn": [-177.6,-0.1,-2.3] },
+        { "item": "knight_greave_left", "place": "leftShin", "at": [0.0937,0.4974,0.0458], "turn": [-176.8,0,-0.8] },
+        { "item": "knight_greave_right", "place": "rightShin", "at": [-0.0944,0.4969,0.0499], "turn": [-175.9,0,0.8] },
+        { "item": "knight_sabaton_left", "place": "leftFoot", "at": [0.0963,0.0927,-0.0818], "turn": [122.9,-3.5,-0.6] },
+        { "item": "knight_sabaton_right", "place": "rightFoot", "at": [-0.0973,0.0947,-0.0803], "turn": [123,3.5,0.5] },
+        { "item": "deathknight_helm", "place": "head", "at": [0.0004,-1.562,0.0352], "turn": [0,-180,0] },
+        { "item": "deathknight_mantle", "place": "neck", "at": [0.0004,-1.505,0.0588], "turn": [0,-180,0] },
+        { "item": "deathknight_breastplate", "place": "chest", "at": [0.0004,-1.3364,-0.1584], "turn": [8.3,-180,0] },
+        { "item": "deathknight_backplate", "place": "back", "at": [0.0004,-1.3364,-0.1584], "turn": [8.3,-180,0] },
+        { "item": "deathknight_fauld", "place": "hips", "at": [0.0004,-0.9726,-0.0186], "turn": [0,-180,0] },
+        { "item": "deathknight_pauldron_left", "place": "leftArm", "at": [0.1473,-0.0955,1.4456], "turn": [29.3,99,-124.3] },
+        { "item": "deathknight_pauldron_right", "place": "rightArm", "at": [-0.1471,-0.0964,1.4457], "turn": [30.3,-99.1,125.3] },
+        { "item": "deathknight_vambrace_left", "place": "leftForearm", "at": [0.0867,-0.43,1.4283], "turn": [-31.3,99.4,-60.6] },
+        { "item": "deathknight_vambrace_right", "place": "rightForearm", "at": [-0.0881,-0.4315,1.4281], "turn": [-28.9,-99.2,62.9] },
+        { "item": "deathknight_gauntlet_left", "place": "leftHand", "at": [0.2012,-0.6379,1.437], "turn": [6.2,99.8,-99.7] },
+        { "item": "deathknight_gauntlet_right", "place": "rightHand", "at": [-0.1801,-0.5531,1.4749], "turn": [7.1,-98.9,104] },
+        { "item": "deathknight_cuisse_left", "place": "leftThigh", "at": [0.1202,0.9082,0.0472], "turn": [-176.6,0.1,2.3] },
+        { "item": "deathknight_cuisse_right", "place": "rightThigh", "at": [-0.1209,0.9087,0.0353], "turn": [-177.6,-0.1,-2.3] },
+        { "item": "deathknight_greave_left", "place": "leftShin", "at": [0.0937,0.4974,0.0458], "turn": [-176.8,0,-0.8] },
+        { "item": "deathknight_greave_right", "place": "rightShin", "at": [-0.0944,0.4969,0.0499], "turn": [-175.9,0,0.8] },
+        { "item": "deathknight_sabaton_left", "place": "leftFoot", "at": [0.0963,0.0927,-0.0818], "turn": [122.9,-3.5,-0.6] },
+        { "item": "deathknight_sabaton_right", "place": "rightFoot", "at": [-0.0973,0.0947,-0.0803], "turn": [123,3.5,0.5] },
+        { "item": "barbarian_helm", "place": "head", "at": [0.0004,-1.562,0.0352], "turn": [0,-180,0] },
+        { "item": "barbarian_mantle", "place": "neck", "at": [0.0004,-1.505,0.0588], "turn": [0,-180,0] },
+        { "item": "barbarian_breastplate", "place": "chest", "at": [0.0004,-1.3364,-0.1584], "turn": [8.3,-180,0] },
+        { "item": "barbarian_backplate", "place": "back", "at": [0.0004,-1.3364,-0.1584], "turn": [8.3,-180,0] },
+        { "item": "barbarian_fauld", "place": "hips", "at": [0.0004,-0.9726,-0.0186], "turn": [0,-180,0] },
+        { "item": "barbarian_pauldron_left", "place": "leftArm", "at": [0.1473,-0.0955,1.4456], "turn": [29.3,99,-124.3] },
+        { "item": "barbarian_pauldron_right", "place": "rightArm", "at": [-0.1471,-0.0964,1.4457], "turn": [30.3,-99.1,125.3] },
+        { "item": "barbarian_vambrace_left", "place": "leftForearm", "at": [0.0867,-0.43,1.4283], "turn": [-31.3,99.4,-60.6] },
+        { "item": "barbarian_vambrace_right", "place": "rightForearm", "at": [-0.0881,-0.4315,1.4281], "turn": [-28.9,-99.2,62.9] },
+        { "item": "barbarian_gauntlet_left", "place": "leftHand", "at": [0.2012,-0.6379,1.437], "turn": [6.2,99.8,-99.7] },
+        { "item": "barbarian_gauntlet_right", "place": "rightHand", "at": [-0.1801,-0.5531,1.4749], "turn": [7.1,-98.9,104] },
+        { "item": "barbarian_cuisse_left", "place": "leftThigh", "at": [0.1202,0.9082,0.0472], "turn": [-176.6,0.1,2.3] },
+        { "item": "barbarian_cuisse_right", "place": "rightThigh", "at": [-0.1209,0.9087,0.0353], "turn": [-177.6,-0.1,-2.3] },
+        { "item": "barbarian_greave_left", "place": "leftShin", "at": [0.0937,0.4974,0.0458], "turn": [-176.8,0,-0.8] },
+        { "item": "barbarian_greave_right", "place": "rightShin", "at": [-0.0944,0.4969,0.0499], "turn": [-175.9,0,0.8] },
+        { "item": "barbarian_sabaton_left", "place": "leftFoot", "at": [0.0963,0.0927,-0.0818], "turn": [122.9,-3.5,-0.6] },
+        { "item": "barbarian_sabaton_right", "place": "rightFoot", "at": [-0.0973,0.0947,-0.0803], "turn": [123,3.5,0.5] }
+      ]
+    },
+    "guard": {
+      "wears": ["tee"],
+      "capsules": [{"from":"Hips","to":"Spine2","radius":0.15},{"from":"Spine2","to":"Neck","radius":0.16},{"from":"Neck","to":"Head","radius":0.07},{"from":"LeftShoulder","to":"LeftArm","radius":0.07},{"from":"LeftArm","to":"LeftForeArm","radius":0.075},{"from":"LeftForeArm","to":"LeftHand","radius":0.065},{"from":"RightShoulder","to":"RightArm","radius":0.07},{"from":"RightArm","to":"RightForeArm","radius":0.075},{"from":"RightForeArm","to":"RightHand","radius":0.065},{"from":"LeftUpLeg","to":"LeftLeg","radius":0.09},{"from":"RightUpLeg","to":"RightLeg","radius":0.09}]
+    }
+  }
+}

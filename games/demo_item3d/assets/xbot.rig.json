@@ -1,0 +1,27 @@
+{
+ "bodies": {
+  "xbot": "characters/xbot/xbot.fbx"
+ },
+ "aim": {
+  "across": 1.05,
+  "up": 0.8,
+  "down": 0.8
+ },
+ "clips": {
+  "idle": {
+   "file": "packs/Male Locomotion Pack 30FPS/idle.fbx",
+   "loop": true
+  },
+  "fall": {
+   "file": "packs/mixamo-motions/Falling Idle.fbx",
+   "loop": true
+  }
+ },
+ "roles": {
+  "still": "idle",
+  "fall": "fall"
+ },
+ "stances": {
+  "stand": {}
+ }
+}

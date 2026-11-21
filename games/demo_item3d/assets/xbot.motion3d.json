@@ -1,0 +1,48 @@
+{
+ "rig": "xbot.rig.json",
+ "moves": 0.05,
+ "turns": 30,
+ "down": 0.02,
+ "buffer": {
+  "hold": 0.4,
+  "cancel": {
+   "*": {
+    "*": "85%"
+   }
+  }
+ },
+ "carries": {},
+ "activities": {
+  "walk": {
+   "normal": [
+    0,
+    1,
+    0
+   ],
+   "motions": {
+    "fall": {
+     "target": "triangles",
+     "clips": [
+      "fall"
+     ],
+     "when": [
+      "falling",
+      "!armed"
+     ]
+    },
+    "stand": {
+     "target": "triangles",
+     "clips": [
+      "idle"
+     ],
+     "when": [
+      "ground",
+      "!pushed",
+      "!guard",
+      "!armed"
+     ]
+    }
+   }
+  }
+ }
+}

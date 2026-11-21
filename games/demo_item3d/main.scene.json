@@ -1,0 +1,1636 @@
+{
+  "world": {
+    "defs": "demo_item3d",
+    "seed": 7,
+    "loader": {
+      "assets": {
+        "demo_item3d": {
+          "type": "json",
+          "url": "/games/demo_item3d/assets/demo_item3d.json",
+          "preload": true
+        },
+        "land": {
+          "type": "json",
+          "url": "/games/demo_item3d/assets/land.json",
+          "preload": true
+        },
+        "looks": {
+          "type": "json",
+          "url": "/games/demo_item3d/assets/main.looks.json",
+          "preload": true
+        },
+        "wrench-glb": {
+          "type": "binary",
+          "url": "/games/demo_item3d/assets/items/wrench.glb",
+          "preload": true
+        },
+        "wrench-item": {
+          "type": "json",
+          "url": "/games/demo_item3d/assets/items/wrench.item.json",
+          "preload": true
+        },
+        "skullcap-glb": {
+          "type": "binary",
+          "url": "/games/demo_item3d/assets/items/skullcap.glb",
+          "preload": true
+        },
+        "skullcap-item": {
+          "type": "json",
+          "url": "/games/demo_item3d/assets/items/skullcap.item.json",
+          "preload": true
+        },
+        "sword": {
+          "type": "model",
+          "url": "/games/demo_item3d/assets/sword.glb",
+          "preload": true
+        },
+        "soldier": {
+          "type": "model",
+          "url": "/games/demo_item3d/assets/soldier.glb",
+          "preload": true
+        },
+        "worker": {
+          "type": "model",
+          "url": "/games/demo_item3d/assets/worker.glb",
+          "preload": true
+        },
+        "worker-rig": {
+          "type": "json",
+          "url": "/games/demo_item3d/assets/worker.rig.json",
+          "preload": true
+        },
+        "xbot": {
+          "type": "model",
+          "url": "/games/demo_item3d/assets/xbot.glb",
+          "preload": true
+        },
+        "xbot-glb": {
+          "type": "binary",
+          "url": "/games/demo_item3d/assets/xbot.glb",
+          "preload": true
+        },
+        "xbot-rig": {
+          "type": "json",
+          "url": "/games/demo_item3d/assets/xbot.rig.json",
+          "preload": true
+        },
+        "xbot-rig-baked": {
+          "type": "json",
+          "url": "/games/demo_item3d/assets/xbot.rig.baked.json",
+          "preload": true
+        },
+        "xbot-motion3d": {
+          "type": "json",
+          "url": "/games/demo_item3d/assets/xbot.motion3d.json",
+          "preload": true
+        },
+        "xbot-motion3d-baked": {
+          "type": "json",
+          "url": "/games/demo_item3d/assets/xbot.motion3d.baked.json",
+          "preload": true
+        },
+        "guard": {
+          "type": "model",
+          "url": "/games/demo_item3d/assets/guard.glb",
+          "preload": true
+        },
+        "guard-rig": {
+          "type": "json",
+          "url": "/games/demo_item3d/assets/guard.rig.json",
+          "preload": true
+        },
+        "fabrics": {
+          "type": "json",
+          "url": "/games/demo_item3d/assets/fabrics.json",
+          "preload": true
+        },
+        "tee-cloth": {
+          "type": "model",
+          "url": "/games/demo_item3d/assets/tee.glb",
+          "preload": true
+        },
+        "tee-garment": {
+          "type": "json",
+          "url": "/games/demo_item3d/assets/tee.garment.json",
+          "preload": true
+        },
+        "bodies": {
+          "type": "json",
+          "url": "/games/demo_item3d/assets/demo_item3d.bodies.json",
+          "preload": true
+        },
+        "knight_armet-glb": {
+          "type": "binary",
+          "url": "/games/demo_item3d/assets/items/knight_armet.glb",
+          "preload": true
+        },
+        "knight_armet-item": {
+          "type": "json",
+          "url": "/games/demo_item3d/assets/items/knight_armet.item.json",
+          "preload": true
+        },
+        "knight_gorget-glb": {
+          "type": "binary",
+          "url": "/games/demo_item3d/assets/items/knight_gorget.glb",
+          "preload": true
+        },
+        "knight_gorget-item": {
+          "type": "json",
+          "url": "/games/demo_item3d/assets/items/knight_gorget.item.json",
+          "preload": true
+        },
+        "knight_breastplate-glb": {
+          "type": "binary",
+          "url": "/games/demo_item3d/assets/items/knight_breastplate.glb",
+          "preload": true
+        },
+        "knight_breastplate-item": {
+          "type": "json",
+          "url": "/games/demo_item3d/assets/items/knight_breastplate.item.json",
+          "preload": true
+        },
+        "knight_backplate-glb": {
+          "type": "binary",
+          "url": "/games/demo_item3d/assets/items/knight_backplate.glb",
+          "preload": true
+        },
+        "knight_backplate-item": {
+          "type": "json",
+          "url": "/games/demo_item3d/assets/items/knight_backplate.item.json",
+          "preload": true
+        },
+        "knight_fauld-glb": {
+          "type": "binary",
+          "url": "/games/demo_item3d/assets/items/knight_fauld.glb",
+          "preload": true
+        },
+        "knight_fauld-item": {
+          "type": "json",
+          "url": "/games/demo_item3d/assets/items/knight_fauld.item.json",
+          "preload": true
+        },
+        "knight_pauldron_left-glb": {
+          "type": "binary",
+          "url": "/games/demo_item3d/assets/items/knight_pauldron_left.glb",
+          "preload": true
+        },
+        "knight_pauldron_left-item": {
+          "type": "json",
+          "url": "/games/demo_item3d/assets/items/knight_pauldron_left.item.json",
+          "preload": true
+        },
+        "knight_pauldron_right-glb": {
+          "type": "binary",
+          "url": "/games/demo_item3d/assets/items/knight_pauldron_right.glb",
+          "preload": true
+        },
+        "knight_pauldron_right-item": {
+          "type": "json",
+          "url": "/games/demo_item3d/assets/items/knight_pauldron_right.item.json",
+          "preload": true
+        },
+        "knight_vambrace_left-glb": {
+          "type": "binary",
+          "url": "/games/demo_item3d/assets/items/knight_vambrace_left.glb",
+          "preload": true
+        },
+        "knight_vambrace_left-item": {
+          "type": "json",
+          "url": "/games/demo_item3d/assets/items/knight_vambrace_left.item.json",
+          "preload": true
+        },
+        "knight_vambrace_right-glb": {
+          "type": "binary",
+          "url": "/games/demo_item3d/assets/items/knight_vambrace_right.glb",
+          "preload": true
+        },
+        "knight_vambrace_right-item": {
+          "type": "json",
+          "url": "/games/demo_item3d/assets/items/knight_vambrace_right.item.json",
+          "preload": true
+        },
+        "knight_gauntlet_left-glb": {
+          "type": "binary",
+          "url": "/games/demo_item3d/assets/items/knight_gauntlet_left.glb",
+          "preload": true
+        },
+        "knight_gauntlet_left-item": {
+          "type": "json",
+          "url": "/games/demo_item3d/assets/items/knight_gauntlet_left.item.json",
+          "preload": true
+        },
+        "knight_gauntlet_right-glb": {
+          "type": "binary",
+          "url": "/games/demo_item3d/assets/items/knight_gauntlet_right.glb",
+          "preload": true
+        },
+        "knight_gauntlet_right-item": {
+          "type": "json",
+          "url": "/games/demo_item3d/assets/items/knight_gauntlet_right.item.json",
+          "preload": true
+        },
+        "knight_cuisse_left-glb": {
+          "type": "binary",
+          "url": "/games/demo_item3d/assets/items/knight_cuisse_left.glb",
+          "preload": true
+        },
+        "knight_cuisse_left-item": {
+          "type": "json",
+          "url": "/games/demo_item3d/assets/items/knight_cuisse_left.item.json",
+          "preload": true
+        },
+        "knight_cuisse_right-glb": {
+          "type": "binary",
+          "url": "/games/demo_item3d/assets/items/knight_cuisse_right.glb",
+          "preload": true
+        },
+        "knight_cuisse_right-item": {
+          "type": "json",
+          "url": "/games/demo_item3d/assets/items/knight_cuisse_right.item.json",
+          "preload": true
+        },
+        "knight_greave_left-glb": {
+          "type": "binary",
+          "url": "/games/demo_item3d/assets/items/knight_greave_left.glb",
+          "preload": true
+        },
+        "knight_greave_left-item": {
+          "type": "json",
+          "url": "/games/demo_item3d/assets/items/knight_greave_left.item.json",
+          "preload": true
+        },
+        "knight_greave_right-glb": {
+          "type": "binary",
+          "url": "/games/demo_item3d/assets/items/knight_greave_right.glb",
+          "preload": true
+        },
+        "knight_greave_right-item": {
+          "type": "json",
+          "url": "/games/demo_item3d/assets/items/knight_greave_right.item.json",
+          "preload": true
+        },
+        "knight_sabaton_left-glb": {
+          "type": "binary",
+          "url": "/games/demo_item3d/assets/items/knight_sabaton_left.glb",
+          "preload": true
+        },
+        "knight_sabaton_left-item": {
+          "type": "json",
+          "url": "/games/demo_item3d/assets/items/knight_sabaton_left.item.json",
+          "preload": true
+        },
+        "knight_sabaton_right-glb": {
+          "type": "binary",
+          "url": "/games/demo_item3d/assets/items/knight_sabaton_right.glb",
+          "preload": true
+        },
+        "knight_sabaton_right-item": {
+          "type": "json",
+          "url": "/games/demo_item3d/assets/items/knight_sabaton_right.item.json",
+          "preload": true
+        },
+        "effects": {
+          "type": "json",
+          "url": "/games/demo_item3d/assets/effects.json",
+          "preload": true
+        },
+        "teststand-glb": {
+          "type": "binary",
+          "url": "/games/demo_item3d/assets/items/teststand.glb",
+          "preload": true
+        },
+        "teststand-item": {
+          "type": "json",
+          "url": "/games/demo_item3d/assets/items/teststand.item.json",
+          "preload": true
+        },
+        "torch-glb": {
+          "type": "binary",
+          "url": "/games/demo_item3d/assets/items/torch.glb",
+          "preload": true
+        },
+        "torch-item": {
+          "type": "json",
+          "url": "/games/demo_item3d/assets/items/torch.item.json",
+          "preload": true
+        },
+        "hairs": {
+          "type": "json",
+          "url": "/games/demo_item3d/assets/hairs.json",
+          "preload": true
+        },
+        "main_pictures": {
+          "type": "texture",
+          "url": "/games/demo_item3d/assets/looks/main.pictures.ktx2",
+          "preload": true
+        },
+        "deathknight_helm-glb": {
+          "type": "binary",
+          "url": "/games/demo_item3d/assets/items/deathknight_helm.glb",
+          "preload": true
+        },
+        "deathknight_helm-item": {
+          "type": "json",
+          "url": "/games/demo_item3d/assets/items/deathknight_helm.item.json",
+          "preload": true
+        },
+        "deathknight_mantle-glb": {
+          "type": "binary",
+          "url": "/games/demo_item3d/assets/items/deathknight_mantle.glb",
+          "preload": true
+        },
+        "deathknight_mantle-item": {
+          "type": "json",
+          "url": "/games/demo_item3d/assets/items/deathknight_mantle.item.json",
+          "preload": true
+        },
+        "deathknight_breastplate-glb": {
+          "type": "binary",
+          "url": "/games/demo_item3d/assets/items/deathknight_breastplate.glb",
+          "preload": true
+        },
+        "deathknight_breastplate-item": {
+          "type": "json",
+          "url": "/games/demo_item3d/assets/items/deathknight_breastplate.item.json",
+          "preload": true
+        },
+        "deathknight_backplate-glb": {
+          "type": "binary",
+          "url": "/games/demo_item3d/assets/items/deathknight_backplate.glb",
+          "preload": true
+        },
+        "deathknight_backplate-item": {
+          "type": "json",
+          "url": "/games/demo_item3d/assets/items/deathknight_backplate.item.json",
+          "preload": true
+        },
+        "deathknight_fauld-glb": {
+          "type": "binary",
+          "url": "/games/demo_item3d/assets/items/deathknight_fauld.glb",
+          "preload": true
+        },
+        "deathknight_fauld-item": {
+          "type": "json",
+          "url": "/games/demo_item3d/assets/items/deathknight_fauld.item.json",
+          "preload": true
+        },
+        "deathknight_pauldron_left-glb": {
+          "type": "binary",
+          "url": "/games/demo_item3d/assets/items/deathknight_pauldron_left.glb",
+          "preload": true
+        },
+        "deathknight_pauldron_left-item": {
+          "type": "json",
+          "url": "/games/demo_item3d/assets/items/deathknight_pauldron_left.item.json",
+          "preload": true
+        },
+        "deathknight_pauldron_right-glb": {
+          "type": "binary",
+          "url": "/games/demo_item3d/assets/items/deathknight_pauldron_right.glb",
+          "preload": true
+        },
+        "deathknight_pauldron_right-item": {
+          "type": "json",
+          "url": "/games/demo_item3d/assets/items/deathknight_pauldron_right.item.json",
+          "preload": true
+        },
+        "deathknight_vambrace_left-glb": {
+          "type": "binary",
+          "url": "/games/demo_item3d/assets/items/deathknight_vambrace_left.glb",
+          "preload": true
+        },
+        "deathknight_vambrace_left-item": {
+          "type": "json",
+          "url": "/games/demo_item3d/assets/items/deathknight_vambrace_left.item.json",
+          "preload": true
+        },
+        "deathknight_vambrace_right-glb": {
+          "type": "binary",
+          "url": "/games/demo_item3d/assets/items/deathknight_vambrace_right.glb",
+          "preload": true
+        },
+        "deathknight_vambrace_right-item": {
+          "type": "json",
+          "url": "/games/demo_item3d/assets/items/deathknight_vambrace_right.item.json",
+          "preload": true
+        },
+        "deathknight_gauntlet_left-glb": {
+          "type": "binary",
+          "url": "/games/demo_item3d/assets/items/deathknight_gauntlet_left.glb",
+          "preload": true
+        },
+        "deathknight_gauntlet_left-item": {
+          "type": "json",
+          "url": "/games/demo_item3d/assets/items/deathknight_gauntlet_left.item.json",
+          "preload": true
+        },
+        "deathknight_gauntlet_right-glb": {
+          "type": "binary",
+          "url": "/games/demo_item3d/assets/items/deathknight_gauntlet_right.glb",
+          "preload": true
+        },
+        "deathknight_gauntlet_right-item": {
+          "type": "json",
+          "url": "/games/demo_item3d/assets/items/deathknight_gauntlet_right.item.json",
+          "preload": true
+        },
+        "deathknight_cuisse_left-glb": {
+          "type": "binary",
+          "url": "/games/demo_item3d/assets/items/deathknight_cuisse_left.glb",
+          "preload": true
+        },
+        "deathknight_cuisse_left-item": {
+          "type": "json",
+          "url": "/games/demo_item3d/assets/items/deathknight_cuisse_left.item.json",
+          "preload": true
+        },
+        "deathknight_cuisse_right-glb": {
+          "type": "binary",
+          "url": "/games/demo_item3d/assets/items/deathknight_cuisse_right.glb",
+          "preload": true
+        },
+        "deathknight_cuisse_right-item": {
+          "type": "json",
+          "url": "/games/demo_item3d/assets/items/deathknight_cuisse_right.item.json",
+          "preload": true
+        },
+        "deathknight_greave_left-glb": {
+          "type": "binary",
+          "url": "/games/demo_item3d/assets/items/deathknight_greave_left.glb",
+          "preload": true
+        },
+        "deathknight_greave_left-item": {
+          "type": "json",
+          "url": "/games/demo_item3d/assets/items/deathknight_greave_left.item.json",
+          "preload": true
+        },
+        "deathknight_greave_right-glb": {
+          "type": "binary",
+          "url": "/games/demo_item3d/assets/items/deathknight_greave_right.glb",
+          "preload": true
+        },
+        "deathknight_greave_right-item": {
+          "type": "json",
+          "url": "/games/demo_item3d/assets/items/deathknight_greave_right.item.json",
+          "preload": true
+        },
+        "deathknight_sabaton_left-glb": {
+          "type": "binary",
+          "url": "/games/demo_item3d/assets/items/deathknight_sabaton_left.glb",
+          "preload": true
+        },
+        "deathknight_sabaton_left-item": {
+          "type": "json",
+          "url": "/games/demo_item3d/assets/items/deathknight_sabaton_left.item.json",
+          "preload": true
+        },
+        "deathknight_sabaton_right-glb": {
+          "type": "binary",
+          "url": "/games/demo_item3d/assets/items/deathknight_sabaton_right.glb",
+          "preload": true
+        },
+        "deathknight_sabaton_right-item": {
+          "type": "json",
+          "url": "/games/demo_item3d/assets/items/deathknight_sabaton_right.item.json",
+          "preload": true
+        },
+        "barbarian_helm-glb": {
+          "type": "binary",
+          "url": "/games/demo_item3d/assets/items/barbarian_helm.glb",
+          "preload": true
+        },
+        "barbarian_helm-item": {
+          "type": "json",
+          "url": "/games/demo_item3d/assets/items/barbarian_helm.item.json",
+          "preload": true
+        },
+        "barbarian_mantle-glb": {
+          "type": "binary",
+          "url": "/games/demo_item3d/assets/items/barbarian_mantle.glb",
+          "preload": true
+        },
+        "barbarian_mantle-item": {
+          "type": "json",
+          "url": "/games/demo_item3d/assets/items/barbarian_mantle.item.json",
+          "preload": true
+        },
+        "barbarian_breastplate-glb": {
+          "type": "binary",
+          "url": "/games/demo_item3d/assets/items/barbarian_breastplate.glb",
+          "preload": true
+        },
+        "barbarian_breastplate-item": {
+          "type": "json",
+          "url": "/games/demo_item3d/assets/items/barbarian_breastplate.item.json",
+          "preload": true
+        },
+        "barbarian_backplate-glb": {
+          "type": "binary",
+          "url": "/games/demo_item3d/assets/items/barbarian_backplate.glb",
+          "preload": true
+        },
+        "barbarian_backplate-item": {
+          "type": "json",
+          "url": "/games/demo_item3d/assets/items/barbarian_backplate.item.json",
+          "preload": true
+        },
+        "barbarian_fauld-glb": {
+          "type": "binary",
+          "url": "/games/demo_item3d/assets/items/barbarian_fauld.glb",
+          "preload": true
+        },
+        "barbarian_fauld-item": {
+          "type": "json",
+          "url": "/games/demo_item3d/assets/items/barbarian_fauld.item.json",
+          "preload": true
+        },
+        "barbarian_pauldron_left-glb": {
+          "type": "binary",
+          "url": "/games/demo_item3d/assets/items/barbarian_pauldron_left.glb",
+          "preload": true
+        },
+        "barbarian_pauldron_left-item": {
+          "type": "json",
+          "url": "/games/demo_item3d/assets/items/barbarian_pauldron_left.item.json",
+          "preload": true
+        },
+        "barbarian_pauldron_right-glb": {
+          "type": "binary",
+          "url": "/games/demo_item3d/assets/items/barbarian_pauldron_right.glb",
+          "preload": true
+        },
+        "barbarian_pauldron_right-item": {
+          "type": "json",
+          "url": "/games/demo_item3d/assets/items/barbarian_pauldron_right.item.json",
+          "preload": true
+        },
+        "barbarian_vambrace_left-glb": {
+          "type": "binary",
+          "url": "/games/demo_item3d/assets/items/barbarian_vambrace_left.glb",
+          "preload": true
+        },
+        "barbarian_vambrace_left-item": {
+          "type": "json",
+          "url": "/games/demo_item3d/assets/items/barbarian_vambrace_left.item.json",
+          "preload": true
+        },
+        "barbarian_vambrace_right-glb": {
+          "type": "binary",
+          "url": "/games/demo_item3d/assets/items/barbarian_vambrace_right.glb",
+          "preload": true
+        },
+        "barbarian_vambrace_right-item": {
+          "type": "json",
+          "url": "/games/demo_item3d/assets/items/barbarian_vambrace_right.item.json",
+          "preload": true
+        },
+        "barbarian_gauntlet_left-glb": {
+          "type": "binary",
+          "url": "/games/demo_item3d/assets/items/barbarian_gauntlet_left.glb",
+          "preload": true
+        },
+        "barbarian_gauntlet_left-item": {
+          "type": "json",
+          "url": "/games/demo_item3d/assets/items/barbarian_gauntlet_left.item.json",
+          "preload": true
+        },
+        "barbarian_gauntlet_right-glb": {
+          "type": "binary",
+          "url": "/games/demo_item3d/assets/items/barbarian_gauntlet_right.glb",
+          "preload": true
+        },
+        "barbarian_gauntlet_right-item": {
+          "type": "json",
+          "url": "/games/demo_item3d/assets/items/barbarian_gauntlet_right.item.json",
+          "preload": true
+        },
+        "barbarian_cuisse_left-glb": {
+          "type": "binary",
+          "url": "/games/demo_item3d/assets/items/barbarian_cuisse_left.glb",
+          "preload": true
+        },
+        "barbarian_cuisse_left-item": {
+          "type": "json",
+          "url": "/games/demo_item3d/assets/items/barbarian_cuisse_left.item.json",
+          "preload": true
+        },
+        "barbarian_cuisse_right-glb": {
+          "type": "binary",
+          "url": "/games/demo_item3d/assets/items/barbarian_cuisse_right.glb",
+          "preload": true
+        },
+        "barbarian_cuisse_right-item": {
+          "type": "json",
+          "url": "/games/demo_item3d/assets/items/barbarian_cuisse_right.item.json",
+          "preload": true
+        },
+        "barbarian_greave_left-glb": {
+          "type": "binary",
+          "url": "/games/demo_item3d/assets/items/barbarian_greave_left.glb",
+          "preload": true
+        },
+        "barbarian_greave_left-item": {
+          "type": "json",
+          "url": "/games/demo_item3d/assets/items/barbarian_greave_left.item.json",
+          "preload": true
+        },
+        "barbarian_greave_right-glb": {
+          "type": "binary",
+          "url": "/games/demo_item3d/assets/items/barbarian_greave_right.glb",
+          "preload": true
+        },
+        "barbarian_greave_right-item": {
+          "type": "json",
+          "url": "/games/demo_item3d/assets/items/barbarian_greave_right.item.json",
+          "preload": true
+        },
+        "barbarian_sabaton_left-glb": {
+          "type": "binary",
+          "url": "/games/demo_item3d/assets/items/barbarian_sabaton_left.glb",
+          "preload": true
+        },
+        "barbarian_sabaton_left-item": {
+          "type": "json",
+          "url": "/games/demo_item3d/assets/items/barbarian_sabaton_left.item.json",
+          "preload": true
+        },
+        "barbarian_sabaton_right-glb": {
+          "type": "binary",
+          "url": "/games/demo_item3d/assets/items/barbarian_sabaton_right.glb",
+          "preload": true
+        },
+        "barbarian_sabaton_right-item": {
+          "type": "json",
+          "url": "/games/demo_item3d/assets/items/barbarian_sabaton_right.item.json",
+          "preload": true
+        }
+      }
+    },
+    "supershader3d": {
+      "looks": "looks"
+    },
+    "terrain3d": {
+      "field": "land",
+      "rings": [
+        {
+          "reach": 64,
+          "seg": 128
+        },
+        {
+          "reach": 320,
+          "seg": 64
+        }
+      ],
+      "shadowReach": 64,
+      "budget": 8,
+      "seabed": false,
+      "preload": true,
+      "mods": {
+        "behaviors": [
+          "supershader3d"
+        ]
+      }
+    },
+    "item3d": {
+      "items": {
+        "wrench": {
+          "glb": "wrench-glb",
+          "file": "wrench-item"
+        },
+        "skullcap": {
+          "glb": "skullcap-glb",
+          "file": "skullcap-item"
+        },
+        "knight_armet": {
+          "glb": "knight_armet-glb",
+          "file": "knight_armet-item"
+        },
+        "knight_gorget": {
+          "glb": "knight_gorget-glb",
+          "file": "knight_gorget-item"
+        },
+        "knight_breastplate": {
+          "glb": "knight_breastplate-glb",
+          "file": "knight_breastplate-item"
+        },
+        "knight_backplate": {
+          "glb": "knight_backplate-glb",
+          "file": "knight_backplate-item"
+        },
+        "knight_fauld": {
+          "glb": "knight_fauld-glb",
+          "file": "knight_fauld-item"
+        },
+        "knight_pauldron_left": {
+          "glb": "knight_pauldron_left-glb",
+          "file": "knight_pauldron_left-item"
+        },
+        "knight_pauldron_right": {
+          "glb": "knight_pauldron_right-glb",
+          "file": "knight_pauldron_right-item"
+        },
+        "knight_vambrace_left": {
+          "glb": "knight_vambrace_left-glb",
+          "file": "knight_vambrace_left-item"
+        },
+        "knight_vambrace_right": {
+          "glb": "knight_vambrace_right-glb",
+          "file": "knight_vambrace_right-item"
+        },
+        "knight_gauntlet_left": {
+          "glb": "knight_gauntlet_left-glb",
+          "file": "knight_gauntlet_left-item"
+        },
+        "knight_gauntlet_right": {
+          "glb": "knight_gauntlet_right-glb",
+          "file": "knight_gauntlet_right-item"
+        },
+        "knight_cuisse_left": {
+          "glb": "knight_cuisse_left-glb",
+          "file": "knight_cuisse_left-item"
+        },
+        "knight_cuisse_right": {
+          "glb": "knight_cuisse_right-glb",
+          "file": "knight_cuisse_right-item"
+        },
+        "knight_greave_left": {
+          "glb": "knight_greave_left-glb",
+          "file": "knight_greave_left-item"
+        },
+        "knight_greave_right": {
+          "glb": "knight_greave_right-glb",
+          "file": "knight_greave_right-item"
+        },
+        "knight_sabaton_left": {
+          "glb": "knight_sabaton_left-glb",
+          "file": "knight_sabaton_left-item"
+        },
+        "knight_sabaton_right": {
+          "glb": "knight_sabaton_right-glb",
+          "file": "knight_sabaton_right-item"
+        },
+        "teststand": {
+          "glb": "teststand-glb",
+          "file": "teststand-item"
+        },
+        "torch": {
+          "glb": "torch-glb",
+          "file": "torch-item"
+        },
+        "deathknight_helm": {
+          "glb": "deathknight_helm-glb",
+          "file": "deathknight_helm-item"
+        },
+        "deathknight_mantle": {
+          "glb": "deathknight_mantle-glb",
+          "file": "deathknight_mantle-item"
+        },
+        "deathknight_breastplate": {
+          "glb": "deathknight_breastplate-glb",
+          "file": "deathknight_breastplate-item"
+        },
+        "deathknight_backplate": {
+          "glb": "deathknight_backplate-glb",
+          "file": "deathknight_backplate-item"
+        },
+        "deathknight_fauld": {
+          "glb": "deathknight_fauld-glb",
+          "file": "deathknight_fauld-item"
+        },
+        "deathknight_pauldron_left": {
+          "glb": "deathknight_pauldron_left-glb",
+          "file": "deathknight_pauldron_left-item"
+        },
+        "deathknight_pauldron_right": {
+          "glb": "deathknight_pauldron_right-glb",
+          "file": "deathknight_pauldron_right-item"
+        },
+        "deathknight_vambrace_left": {
+          "glb": "deathknight_vambrace_left-glb",
+          "file": "deathknight_vambrace_left-item"
+        },
+        "deathknight_vambrace_right": {
+          "glb": "deathknight_vambrace_right-glb",
+          "file": "deathknight_vambrace_right-item"
+        },
+        "deathknight_gauntlet_left": {
+          "glb": "deathknight_gauntlet_left-glb",
+          "file": "deathknight_gauntlet_left-item"
+        },
+        "deathknight_gauntlet_right": {
+          "glb": "deathknight_gauntlet_right-glb",
+          "file": "deathknight_gauntlet_right-item"
+        },
+        "deathknight_cuisse_left": {
+          "glb": "deathknight_cuisse_left-glb",
+          "file": "deathknight_cuisse_left-item"
+        },
+        "deathknight_cuisse_right": {
+          "glb": "deathknight_cuisse_right-glb",
+          "file": "deathknight_cuisse_right-item"
+        },
+        "deathknight_greave_left": {
+          "glb": "deathknight_greave_left-glb",
+          "file": "deathknight_greave_left-item"
+        },
+        "deathknight_greave_right": {
+          "glb": "deathknight_greave_right-glb",
+          "file": "deathknight_greave_right-item"
+        },
+        "deathknight_sabaton_left": {
+          "glb": "deathknight_sabaton_left-glb",
+          "file": "deathknight_sabaton_left-item"
+        },
+        "deathknight_sabaton_right": {
+          "glb": "deathknight_sabaton_right-glb",
+          "file": "deathknight_sabaton_right-item"
+        },
+        "barbarian_helm": {
+          "glb": "barbarian_helm-glb",
+          "file": "barbarian_helm-item"
+        },
+        "barbarian_mantle": {
+          "glb": "barbarian_mantle-glb",
+          "file": "barbarian_mantle-item"
+        },
+        "barbarian_breastplate": {
+          "glb": "barbarian_breastplate-glb",
+          "file": "barbarian_breastplate-item"
+        },
+        "barbarian_backplate": {
+          "glb": "barbarian_backplate-glb",
+          "file": "barbarian_backplate-item"
+        },
+        "barbarian_fauld": {
+          "glb": "barbarian_fauld-glb",
+          "file": "barbarian_fauld-item"
+        },
+        "barbarian_pauldron_left": {
+          "glb": "barbarian_pauldron_left-glb",
+          "file": "barbarian_pauldron_left-item"
+        },
+        "barbarian_pauldron_right": {
+          "glb": "barbarian_pauldron_right-glb",
+          "file": "barbarian_pauldron_right-item"
+        },
+        "barbarian_vambrace_left": {
+          "glb": "barbarian_vambrace_left-glb",
+          "file": "barbarian_vambrace_left-item"
+        },
+        "barbarian_vambrace_right": {
+          "glb": "barbarian_vambrace_right-glb",
+          "file": "barbarian_vambrace_right-item"
+        },
+        "barbarian_gauntlet_left": {
+          "glb": "barbarian_gauntlet_left-glb",
+          "file": "barbarian_gauntlet_left-item"
+        },
+        "barbarian_gauntlet_right": {
+          "glb": "barbarian_gauntlet_right-glb",
+          "file": "barbarian_gauntlet_right-item"
+        },
+        "barbarian_cuisse_left": {
+          "glb": "barbarian_cuisse_left-glb",
+          "file": "barbarian_cuisse_left-item"
+        },
+        "barbarian_cuisse_right": {
+          "glb": "barbarian_cuisse_right-glb",
+          "file": "barbarian_cuisse_right-item"
+        },
+        "barbarian_greave_left": {
+          "glb": "barbarian_greave_left-glb",
+          "file": "barbarian_greave_left-item"
+        },
+        "barbarian_greave_right": {
+          "glb": "barbarian_greave_right-glb",
+          "file": "barbarian_greave_right-item"
+        },
+        "barbarian_sabaton_left": {
+          "glb": "barbarian_sabaton_left-glb",
+          "file": "barbarian_sabaton_left-item"
+        },
+        "barbarian_sabaton_right": {
+          "glb": "barbarian_sabaton_right-glb",
+          "file": "barbarian_sabaton_right-item"
+        }
+      },
+      "kinds": {
+        "wrench": {
+          "item": "wrench"
+        },
+        "teststand": {
+          "item": "teststand"
+        }
+      },
+      "bodies": "bodies"
+    },
+    "walker": {
+      "kinds": {
+        "worker": {
+          "radius": 0.3,
+          "height": 1.8,
+          "accel": 8,
+          "turnRate": 6,
+          "gravity": 20,
+          "jumpH": 1.1,
+          "step": 0.45,
+          "maxSlope": 0.9,
+          "slopeBand": 0.2,
+          "slide": 4,
+          "wade": 0.8,
+          "span": 0.3,
+          "probe": 0.5,
+          "seekSpeed": 1.4
+        },
+        "guard": {
+          "radius": 0.3,
+          "height": 1.8,
+          "accel": 8,
+          "turnRate": 6,
+          "gravity": 20,
+          "jumpH": 1.1,
+          "step": 0.45,
+          "maxSlope": 0.9,
+          "slopeBand": 0.2,
+          "slide": 4,
+          "wade": 0.8,
+          "span": 0.3,
+          "probe": 0.5,
+          "seekSpeed": 1.4
+        }
+      },
+      "mods": {
+        "height": "terrain3d",
+        "depth": "terrain3d"
+      }
+    },
+    "anim": {
+      "still": 0.05,
+      "shift": 0.75,
+      "leap": 0.5,
+      "landFall": 7.5,
+      "moves": 0.05,
+      "turns": 30,
+      "kinds": {
+        "worker": {
+          "rig": "worker-rig",
+          "model": "worker",
+          "fade": 0.25,
+          "falls": [
+            {
+              "above": 4.3,
+              "role": "fall"
+            }
+          ],
+          "reads": {
+            "pos": "pos",
+            "yaw": "yaw",
+            "vel": "vel",
+            "grounded": "grounded",
+            "limp": "limp"
+          }
+        },
+        "guard": {
+          "rig": "guard-rig",
+          "model": "guard",
+          "fade": 0.25,
+          "falls": [
+            {
+              "above": 4.3,
+              "role": "fall"
+            }
+          ],
+          "reads": {
+            "pos": "pos",
+            "yaw": "yaw",
+            "vel": "vel",
+            "grounded": "grounded",
+            "limp": "limp"
+          }
+        }
+      },
+      "mods": {
+        "props": "item3d",
+        "capsules": "item3d"
+      }
+    },
+    "crowd3d": {
+      "bodies": {
+        "soldier": "soldier"
+      },
+      "clips": [
+        "idle",
+        "look"
+      ],
+      "rate": 30,
+      "kinds": [
+        "villager"
+      ],
+      "poolSize": 8,
+      "mods": {
+        "items": "item3d"
+      }
+    },
+    "motion3d": {
+      "kinds": {
+        "xbot": {
+          "motion": "xbot-motion3d",
+          "baked": "xbot-motion3d-baked",
+          "rig": "xbot-rig",
+          "measured": "xbot-rig-baked",
+          "model": "xbot",
+          "glb": "xbot-glb",
+          "fade": 0.2,
+          "blend": "inertial",
+          "lean": {
+            "most": 0.25,
+            "ease": 0.12
+          },
+          "reads": {
+            "pos": "pos",
+            "yaw": "yaw",
+            "vel": "vel",
+            "grounded": "grounded",
+            "limp": "limp"
+          }
+        }
+      },
+      "anywhere": {
+        "shape": {
+          "box": {
+            "size": [
+              1000000000,
+              1000000000,
+              1000000000
+            ]
+          }
+        },
+        "activities": [
+          "walk"
+        ],
+        "priority": 0,
+        "data": {
+          "motion3d": {
+            "autoChange": true
+          }
+        }
+      },
+      "ease": 0.15,
+      "mods": {
+        "props": "item3d"
+      }
+    },
+    "shipped": {
+      "plugins": [
+        "stance"
+      ]
+    },
+    "kinematics3d": {
+      "kinds": {
+        "xbot": {
+          "triangles": {
+            "radius": 0.3,
+            "height": 1.8,
+            "step": 0.45,
+            "maxSlope": 0.9,
+            "slopeBand": 0.2,
+            "slide": 4,
+            "wade": 0.8,
+            "span": 0.3,
+            "probe": 0.5
+          },
+          "move": {
+            "accel": 12,
+            "turnRate": 12,
+            "still": 0.05,
+            "reverse": 135
+          },
+          "fall": {
+            "gravity": 20,
+            "airAccel": 2
+          },
+          "jump": {
+            "jumpH": 2,
+            "jumpVelocityBoostMagnitude": 2,
+            "cut": 0.4
+          }
+        }
+      },
+      "mods": {
+        "behaviors": [
+          "terrain3d",
+          "motion3d"
+        ],
+        "states": [
+          "motion3d",
+          "stance"
+        ]
+      }
+    },
+    "gpgpu3d": {
+      "reach": 60,
+      "mods": {
+        "things": [
+          "anim"
+        ],
+        "behaviors": [
+          "anim"
+        ]
+      }
+    },
+    "fabric3d": {
+      "fabrics": "fabrics",
+      "gravity": [
+        0,
+        -9.81,
+        0
+      ],
+      "substep": 0.004166666666666667,
+      "passes": 6,
+      "most": 0.05,
+      "mods": {
+        "behaviors": [
+          "shapes3d",
+          "loader",
+          "solids",
+          "supershader3d"
+        ],
+        "solids": "gpgpu3d",
+        "sources": [
+          "anim",
+          "item3d"
+        ],
+        "attach": "item3d"
+      }
+    },
+    "particle3d": {
+      "effects": "effects",
+      "mods": {
+        "sources": [
+          "item3d"
+        ]
+      }
+    },
+    "lights3d": {
+      "grid": [
+        16,
+        9
+      ],
+      "slices": 24,
+      "shadows": {
+        "atlas": 4096,
+        "tile": 256,
+        "bias": 0.04,
+        "normalBias": 0.05,
+        "budget": 48
+      }
+    },
+    "hair3d": {
+      "hairs": "hairs",
+      "mods": {
+        "skins": [
+          "item3d"
+        ],
+        "behaviors": [
+          "item3d"
+        ],
+        "keeper": "gpgpu3d",
+        "solids": "gpgpu3d",
+        "looks": "supershader3d"
+      }
+    }
+  },
+  "plugins": [
+    "loader",
+    "scenemanager",
+    "player",
+    "supershader3d",
+    "terrain3d",
+    "item3d",
+    "shipped",
+    "crowd3d",
+    "anim",
+    "motion3d",
+    "gpgpu3d",
+    "fabric3d",
+    "hair3d",
+    "particle3d",
+    "environment3d",
+    "render3d",
+    "lights3d",
+    "stats"
+  ],
+  "seats": 1,
+  "prefabs": {
+    "engine": {
+      "dt": 0.016666666666666666,
+      "width": 1280,
+      "height": 720
+    },
+    "scenemanager": {
+      "out": {}
+    },
+    "loader": {},
+    "render3d": {
+      "camera": {
+        "fov": 50,
+        "near": 0.05,
+        "far": 800,
+        "at": [
+          0,
+          1.5,
+          -5
+        ],
+        "look": [
+          0,
+          1.1,
+          0
+        ]
+      },
+      "pixelRatio": 2,
+      "tone": "neutral",
+      "exposure": 1,
+      "shadows": "soft",
+      "background": "#bcd4e8",
+      "ao": {
+        "on": false,
+        "radius": 0.6,
+        "thickness": 0.5,
+        "falloff": 1,
+        "scale": 1,
+        "intensity": 1,
+        "samples": 16
+      },
+      "bloom": {
+        "strength": 0.15,
+        "radius": 0.4,
+        "threshold": 1.5
+      }
+    },
+    "environment3d": {
+      "sun": {
+        "color": "#fff3e0",
+        "power": 2.6,
+        "at": [
+          -30,
+          60,
+          -40
+        ],
+        "shadow": {
+          "map": 4096,
+          "half": 12,
+          "near": 1,
+          "far": 200,
+          "distance": 100,
+          "bias": -0.0002,
+          "normalBias": 0.02
+        }
+      },
+      "sky": {
+        "color": "#dbe8f5",
+        "ground": "#6b6252",
+        "power": 1.1
+      }
+    },
+    "start": {
+      "slot": 0,
+      "pos": [
+        0,
+        1.5,
+        -5
+      ],
+      "view": [
+        0,
+        0
+      ]
+    },
+    "player": {
+      "seat": 0,
+      "pos": [
+        0,
+        1.5,
+        -5
+      ],
+      "view": [
+        0,
+        0
+      ],
+      "stick": [
+        0,
+        0
+      ],
+      "up": false,
+      "down": false,
+      "pace": 0,
+      "placed": false
+    },
+    "worker": {
+      "pos": [
+        0,
+        0,
+        0
+      ],
+      "yaw": 0,
+      "vel": [
+        0,
+        0,
+        0
+      ],
+      "grounded": false,
+      "sliding": false,
+      "speed": 0,
+      "side": 0,
+      "turned": 0,
+      "want": [
+        0,
+        0
+      ],
+      "face": null,
+      "jump": false,
+      "rig": "stand"
+    },
+    "villager": {
+      "pos": [
+        0,
+        0,
+        0
+      ],
+      "to": [
+        0,
+        0,
+        0
+      ],
+      "yaw": 0,
+      "speed": 0,
+      "body": "soldier",
+      "clip": "idle",
+      "since": 0,
+      "holding": {}
+    },
+    "runner": {
+      "as": "xbot",
+      "pos": [
+        0,
+        0,
+        0
+      ],
+      "yaw": 0,
+      "stood": false,
+      "queued": [],
+      "fast": false,
+      "guard": false
+    },
+    "wrench": {
+      "pos": [
+        0,
+        0,
+        0
+      ],
+      "rot": [
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    "guard": {
+      "pos": [
+        0,
+        0,
+        0
+      ],
+      "yaw": 0,
+      "vel": [
+        0,
+        0,
+        0
+      ],
+      "grounded": false,
+      "sliding": false,
+      "speed": 0,
+      "side": 0,
+      "turned": 0,
+      "want": [
+        0,
+        0
+      ],
+      "face": null,
+      "jump": false,
+      "rig": "stand"
+    },
+    "particle3d": {
+      "next": 1,
+      "live": []
+    },
+    "teststand": {
+      "pos": [
+        0,
+        0,
+        0
+      ],
+      "rot": [
+        0,
+        0,
+        0,
+        1
+      ]
+    }
+  },
+  "actors": [
+    {
+      "is": "scenemanager"
+    },
+    {
+      "is": "loader"
+    },
+    {
+      "is": "particle3d"
+    },
+    {
+      "is": "start",
+      "slot": 0,
+      "pos": [
+        0,
+        1.5,
+        -5
+      ],
+      "view": [
+        0,
+        -0.08
+      ]
+    },
+    {
+      "is": "worker",
+      "pos": [
+        2,
+        0,
+        0
+      ],
+      "yaw": 3.141592653589793
+    },
+    {
+      "is": "villager",
+      "pos": [
+        0,
+        0,
+        0
+      ],
+      "to": [
+        0,
+        0,
+        0
+      ],
+      "yaw": 3.141592653589793,
+      "holding": {
+        "head": "skullcap",
+        "rightHand": "sword",
+        "leftHand": "torch"
+      }
+    },
+    {
+      "is": "runner",
+      "pos": [
+        -2,
+        0,
+        0
+      ],
+      "yaw": 3.141592653589793
+    },
+    {
+      "is": "wrench",
+      "pos": [
+        0,
+        0.012,
+        -1.5
+      ],
+      "rot": [
+        0,
+        0.3826834323650898,
+        0,
+        0.9238795325112867
+      ]
+    },
+    {
+      "is": "guard",
+      "pos": [
+        4,
+        0,
+        0
+      ],
+      "yaw": 3.141592653589793
+    },
+    {
+      "is": "villager",
+      "pos": [
+        -4.5,
+        0,
+        2.5
+      ],
+      "to": [
+        -4.5,
+        0,
+        2.5
+      ],
+      "yaw": 3.141592653589793,
+      "holding": {
+        "head": "knight_armet",
+        "neck": "knight_gorget",
+        "chest": "knight_breastplate",
+        "back": "knight_backplate",
+        "hips": "knight_fauld",
+        "leftArm": "knight_pauldron_left",
+        "rightArm": "knight_pauldron_right",
+        "leftForearm": "knight_vambrace_left",
+        "rightForearm": "knight_vambrace_right",
+        "leftHand": "knight_gauntlet_left",
+        "rightHand": "knight_gauntlet_right",
+        "leftThigh": "knight_cuisse_left",
+        "rightThigh": "knight_cuisse_right",
+        "leftShin": "knight_greave_left",
+        "rightShin": "knight_greave_right",
+        "leftFoot": "knight_sabaton_left",
+        "rightFoot": "knight_sabaton_right"
+      }
+    },
+    {
+      "is": "teststand",
+      "pos": [
+        -1,
+        0,
+        -1.5
+      ],
+      "rot": [
+        0,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "is": "villager",
+      "pos": [
+        -3,
+        0,
+        2.5
+      ],
+      "to": [
+        -3,
+        0,
+        2.5
+      ],
+      "yaw": 3.141592653589793,
+      "holding": {
+        "head": "deathknight_helm",
+        "neck": "deathknight_mantle",
+        "chest": "deathknight_breastplate",
+        "back": "deathknight_backplate",
+        "hips": "deathknight_fauld",
+        "leftArm": "deathknight_pauldron_left",
+        "rightArm": "deathknight_pauldron_right",
+        "leftForearm": "deathknight_vambrace_left",
+        "rightForearm": "deathknight_vambrace_right",
+        "leftHand": "deathknight_gauntlet_left",
+        "rightHand": "deathknight_gauntlet_right",
+        "leftThigh": "deathknight_cuisse_left",
+        "rightThigh": "deathknight_cuisse_right",
+        "leftShin": "deathknight_greave_left",
+        "rightShin": "deathknight_greave_right",
+        "leftFoot": "deathknight_sabaton_left",
+        "rightFoot": "deathknight_sabaton_right"
+      }
+    },
+    {
+      "is": "villager",
+      "pos": [
+        0,
+        0,
+        2.5
+      ],
+      "to": [
+        0,
+        0,
+        2.5
+      ],
+      "yaw": 3.141592653589793,
+      "holding": {
+        "head": "barbarian_helm",
+        "neck": "barbarian_mantle",
+        "chest": "barbarian_breastplate",
+        "back": "barbarian_backplate",
+        "hips": "barbarian_fauld",
+        "leftArm": "barbarian_pauldron_left",
+        "rightArm": "barbarian_pauldron_right",
+        "leftForearm": "barbarian_vambrace_left",
+        "rightForearm": "barbarian_vambrace_right",
+        "leftHand": "barbarian_gauntlet_left",
+        "rightHand": "barbarian_gauntlet_right",
+        "leftThigh": "barbarian_cuisse_left",
+        "rightThigh": "barbarian_cuisse_right",
+        "leftShin": "barbarian_greave_left",
+        "rightShin": "barbarian_greave_right",
+        "leftFoot": "barbarian_sabaton_left",
+        "rightFoot": "barbarian_sabaton_right"
+      }
+    }
+  ]
+}
